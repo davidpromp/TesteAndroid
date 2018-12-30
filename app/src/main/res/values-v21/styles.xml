@@ -6,33 +6,21 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/colorWhite</item>
-        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="SantanderButton">
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:textSize">16dp</item>
-        <item name="android:background">@color/colorRedLight</item>
     </style>
 
     <style name="SantanderButton.Selected" parent="SantanderButton">
+        <item name="android:background">@color/colorRedDark</item>
         <item name="android:layout_height">57dp</item>
         <item name="android:paddingTop">2dp</item>
     </style>
     <style name="SantanderButton.Default" parent="SantanderButton">
+        <item name="android:background">@color/colorWhite</item>
         <item name="android:layout_height">55dp</item>
-    </style>
-
-    <style name="SantanderTheme.checkbox" parent="Theme.AppCompat">
-        <item name="android:checkboxStyle">@color/colorRedDark</item>
-        <item name="android:checkMark">@color/colorRedDark</item>
-    </style>
-
-    <style name="SntdButtonSubmit" >
-        <item name="android:background">@drawable/button_submit_selector</item>
-        <item name="android:textSize">16dp</item>
-        <item name="android:textColor">@color/colorWhite</item>
     </style>
 
     <style name="SantanderTextForm" parent="Theme.AppCompat.Light.NoActionBar">
@@ -42,13 +30,8 @@
         <item name="colorControlActivated">@color/colorText</item>
         <item name="colorAccent">@color/colorFontBlack</item>
         <item name="colorPrimary">@color/colorWhite</item>
+        <item name="android:statusBarColor">@color/colorWhite</item>
     </style>
-
-    <style name="SantanderTextFont">
-        <item name="android:textSize">16dp</item>
-        <item name="android:textColor">@color/colorText</item>
-    </style>
-
 
 
 </resources>

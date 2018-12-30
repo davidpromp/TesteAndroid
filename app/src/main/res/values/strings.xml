@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">TesteAndroid</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="str_investimento">Investimento</string>
+    <string name="str_contato">Contato</string>
     <string name="title_notifications">Notifications</string>
+    <string name="buttonteste">Buttonteste</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="email">Email</string>
+    <string name="telefone">Telefone</string>
+    <string name="gostaria_de_cadastrar_me_email">Gostaria de cadastrar me email</string>
+    <string name="btn_enviar">Enviar</string>
 </resources>
